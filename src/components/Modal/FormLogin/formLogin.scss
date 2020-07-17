@@ -1,0 +1,101 @@
+.title-form-connection {
+  border-bottom: 1px solid #a77e6c;
+  text-align: center;
+  margin: 25px 0;
+  padding-bottom: 10px;
+  font-size: 22px;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 5px;
+
+  &__cross-icon {
+    position: absolute;
+    right: 9px;
+    top: 4px;
+    cursor: pointer;
+  }
+}
+
+.form-login {
+  width: 350px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__wrapper {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+    &__error-message {
+      color: red;
+    }
+
+    &__success-message {
+      margin-bottom: 5px;
+      color: green;
+    }
+
+    &__title-input {
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-family: "Oswald", sans-serif;
+    }
+
+    &__input {
+      margin-bottom: 22px;
+      height: 35px;
+      width: 100%;
+      border: none;
+      border-bottom: 1px solid #a77e6c;
+      background-color: #fff7ed;
+      box-sizing: border-box;
+      border-radius: 3px 3px 0 0;
+    }
+  }
+
+  &__btn-connect {
+    background-color: #66a281;
+    color: #fff3ed;
+    width: 50%;
+    text-align: center;
+    height: 36px;
+    border: none;
+    font-size: 15px;
+    margin: auto;
+    cursor: pointer;
+    font-family: "Oswald", sans-serif;
+    border-radius: 9px;
+  }
+}
+
+.wrapper-footer {
+  border-top: 1px solid #a77e6c;
+  margin: 30px 0 30px 18px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__wrapper-checkbox {
+    margin-top: 10px;
+
+    &__checkbox {
+      cursor: pointer;
+    }
+  }
+
+  &__text {
+    font-size: 15px;
+    font-family: "Oswald, sans serif";
+    height: 30px;
+    margin-right: 12px;
+  }
+
+  &__signup {
+    font-family: "Oswald, sans serif";
+    cursor: pointer;
+    height: 30px;
+    text-decoration: underline;
+  }
+}

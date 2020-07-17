@@ -1,0 +1,23 @@
+.product-list-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin: 50px 0;
+}
+
+.wrapper-product {
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+@media screen and(max-width: 1024px) {
+  .wrapper-product {
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+}
